@@ -1,0 +1,216 @@
+.main-div {
+  min-width: 1100px;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 0 0 0;
+  .pictures {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+
+    .sub-pics {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      /* background-color: aqua; */
+      /* height: 100%; */
+      margin-top: 3rem;
+      margin-left: 0.5rem;
+      width: 10%;
+
+      img {
+        border: 1px solid black;
+        border-radius: 5px;
+      }
+    }
+    .main-pic {
+      margin-top: 3rem;
+      margin-left: 5rem;
+      /* margin-right: 0.5rem; */
+      /* background-color: blue; */
+      width: 80%;
+    }
+  }
+
+  .info {
+    width: 60%;
+    margin-left: 0.8rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 900px;
+  }
+
+  .info::-webkit-scrollbar {
+    width: 0;
+  }
+
+  .info {
+    .title {
+      .product-title {
+        /* background-color: blueviolet; */
+        font-size: 28px;
+        font-weight: 100;
+        padding: 0;
+        margin: 0;
+      }
+      .storelink {
+        /* background-color: red; */
+        /* padding-top: 10px;
+        margin: 0; */
+        margin-top: 50px;
+        /* padding-bottom: 5px; */
+      }
+    }
+
+    .price {
+      p {
+        margin: 0;
+        padding: 0;
+      }
+      /* background-color: blue; */
+      font-size: 18px;
+      .timer {
+        margin-top: 10px;
+        display: inline-block;
+        font-size: 12px;
+        padding: 5px;
+        color: white;
+        background-color: #cc0c39;
+        border-radius: 7px;
+      }
+      .amount {
+        margin-top: 10px;
+        font-size: 32px;
+        /* background-color: gray; */
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+
+        .discount {
+          color: red;
+        }
+      }
+      .mrp {
+        font-size: 16px;
+        color: #565959;
+        padding: 0;
+        margin-bottom: 10px;
+      }
+    }
+
+    .offer-div {
+      /* background-color:cadetblue; */
+      margin-top: 10px;
+      padding-bottom: 10px;
+      p {
+        padding: 0;
+        margin: 0;
+      }
+
+      .offer-boxes {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 0.5rem;
+        gap: 10px;
+
+        .offer {
+          border-radius: 10px;
+          border: 1px solid black;
+          font-size: 18px;
+          height: 40%;
+          width: 30%;
+          padding: 5px;
+        }
+
+        .offer-heading {
+          font-weight: bold;
+          padding-bottom: 0.3rem;
+        }
+      }
+    }
+
+    .specs {
+      /* background-color: greenyellow; */
+      /* margin-top: -35px; */
+      padding: 0;
+      .specheading {
+        font-size: 20px;
+        margin-bottom: 10px;
+        padding: 5px;
+      }
+      .props {
+        font-weight: bold;
+      }
+
+      td {
+        padding: 3px;
+        font-size: 18px;
+      }
+    }
+
+    .about {
+      /* background-color: blue; */
+
+      .about-heading {
+        font-size: 20px;
+        margin-bottom: 10px;
+        padding: 5px;
+        font-weight: bold;
+      }
+      li {
+        font-size: 18px;
+      }
+    }
+  }
+
+  .buy_now {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 0.8rem;
+    height: 30vh;
+
+    .delivery {
+      .dates {
+        font-weight: bold;
+      }
+
+      .freedelivery {
+        color: #007185;
+      }
+
+      a {
+        color: #007185;
+      }
+      font-size: 18px;
+      margin: 15px 10px 0px 30px;
+    }
+  }
+
+  .cart-btn {
+    font-size: 20px;
+    margin: 10px 50px 0px 50px;
+    border: 0px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: yellow;
+    color: black;
+  }
+  .buy-btn {
+    font-size: 20px;
+    margin: 15px 50px 0px 50px;
+    border: 0px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: orange;
+    color: black;
+  }
+
+  .quantityselect {
+    /* margin-top: 10px; */
+    margin: 10px 0px 10px 30px;
+  }
+}
